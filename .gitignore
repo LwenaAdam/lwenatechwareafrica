@@ -44,6 +44,10 @@ yarn-error.log*
 next-env.d.ts
 
 
+# Data and local logs
+data/
+*.log
+
 # Supabase
 supabase/.branches/_current_branch
 supabase/.temp/cli-latest

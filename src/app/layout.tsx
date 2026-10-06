@@ -1,5 +1,5 @@
 import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Poppins } from 'next/font/google'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
@@ -16,6 +16,12 @@ const poppins = Poppins({
   variable: '--font-poppins',
   display: 'swap',
 })
+
+export const viewport: Viewport = {
+  themeColor: '#232F3E',
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   title: {
@@ -38,6 +44,9 @@ export const metadata: Metadata = {
   publisher: 'TechWareAfrica',
   // canonical site base used to build absolute URLs (keeps Open Graph and canonical links consistent)
   metadataBase: new URL('https://techwareafrica.tech'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -46,18 +55,34 @@ export const metadata: Metadata = {
     description: 'Professional software development company delivering world-class solutions built in Africa for the global market.',
     siteName: 'TechWareAfrica',
     images: [
-      '/images/Brand&LandingPage/og-techwareafrica.png'
+      {
+        url: '/images/Brand&LandingPage/og-techwareafrica.png',
+        width: 1080,
+        height: 1080,
+        alt: 'TechWareAfrica - World-Class Software Solutions',
+      },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'TechWareAfrica | World-Class Software Solutions',
     description: 'Professional software development company from Africa.',
+    images: ['/images/Brand&LandingPage/og-techwareafrica.png'],
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
     shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
+  manifest: '/site.webmanifest',
   robots: {
     index: true,
     follow: true,
@@ -76,8 +101,11 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "TechWareAfrica",
   "url": "https://techwareafrica.tech",
-  "logo": "https://techwareafrica/images/Brand&LandingPage/logoal-removebg-preview.png",
+  "logo": "https://techwareafrica.tech/images/Brand%26LandingPage/logoal-removebg-preview.png",
   "description": "Professional software development company delivering world-class SaaS solutions, mobile apps, and enterprise systems.",
+  "email": "techwareafrican@gmail.com",
+  "telephone": "+255683274343",
+  "areaServed": "Worldwide",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Dar es Salaam",
@@ -89,7 +117,11 @@ const organizationSchema = {
     "longitude": 39.1557962
   },
   "hasMap": "https://www.google.com/maps/place/TECHWAREAFRICA/@-6.7403176,39.1557962,17z/",
-  "sameAs": []
+  "sameAs": [
+    "https://github.com/LWENA27",
+    "https://www.linkedin.com/in/lwena-adam-b55944322/",
+    "https://www.tiktok.com/@techwareafrica"
+  ]
 }
 
 export default function RootLayout({
