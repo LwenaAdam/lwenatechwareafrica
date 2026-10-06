@@ -78,6 +78,17 @@ const organizationSchema = {
   "url": "https://techwareafrica.tech",
   "logo": "https://techwareafrica/images/Brand&LandingPage/logoal-removebg-preview.png",
   "description": "Professional software development company delivering world-class SaaS solutions, mobile apps, and enterprise systems.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dar es Salaam",
+    "addressCountry": "TZ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -6.7403176,
+    "longitude": 39.1557962
+  },
+  "hasMap": "https://www.google.com/maps/place/TECHWAREAFRICA/@-6.7403176,39.1557962,17z/",
   "sameAs": []
 }
 

@@ -77,9 +77,13 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
-                <span className="text-white/80">
+                <Link
+                  href="/contact#map"
+                  className="text-white/80 hover:text-secondary transition-colors"
+                  title="View TECHWAREAFRICA on Google Maps"
+                >
                   Dar es Salaam, Tanzania<br />East Africa
-                </span>
+                </Link>
               </li>
             </ul>
           </div>

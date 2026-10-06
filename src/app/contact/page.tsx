@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Mail, Phone, MapPin, Clock, Github, Linkedin, TrendingUp } from 'lucide-react'
 import { ContactForm } from '@/components/contact/ContactForm'
+import { MapSection } from '@/components/contact/MapSection'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
@@ -72,7 +73,12 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-[#232F3E] mb-1">Location</h3>
                     <p className="text-gray-600">Dar es Salaam, Tanzania</p>
-                    <p className="text-gray-600">Serving clients worldwide</p>
+                    <a
+                      href="#map"
+                      className="inline-flex items-center gap-1 text-sm font-semibold text-[#FF9900] hover:underline mt-1"
+                    >
+                      View on Interactive Map ↓
+                    </a>
                   </div>
                 </div>
 
@@ -129,6 +135,9 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Map Section */}
+      <MapSection />
 
       {/* FAQ Section */}
       <section className="py-20 bg-[#EAEDED]">
