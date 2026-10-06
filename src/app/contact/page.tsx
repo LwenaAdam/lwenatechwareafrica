@@ -110,7 +110,7 @@ export default function ContactPage() {
                     <span>TikTok</span>
                   </a>
                   <a
-                    href="https://github.com/LWENA27"
+                    href="https://github.com/LwenaAdam"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-[#232F3E] text-white rounded-lg hover:bg-[#FF9900] transition-colors text-sm font-medium"

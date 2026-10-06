@@ -61,7 +61,7 @@ export function CTASection() {
                 <span>@techwareafrica</span>
               </a>
               <a 
-                href="https://github.com/LWENA27" 
+                href="https://github.com/LwenaAdam" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors text-sm font-medium"

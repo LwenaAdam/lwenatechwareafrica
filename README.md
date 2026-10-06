@@ -197,7 +197,7 @@ This is a private company website. For internal development:
 
 **techwareafrica**
 - Email: techwareafrican@gmail.com
-- GitHub: [@LWENA27](https://github.com/LWENA27)
+- GitHub: [@LwenaAdam](https://github.com/LwenaAdam)
 - Location: Dar es Salaam, Tanzania
 
 ---

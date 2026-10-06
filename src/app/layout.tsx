@@ -118,7 +118,7 @@ const organizationSchema = {
   },
   "hasMap": "https://www.google.com/maps/place/TECHWAREAFRICA/@-6.7403176,39.1557962,17z/",
   "sameAs": [
-    "https://github.com/LWENA27",
+    "https://github.com/LwenaAdam",
     "https://www.linkedin.com/in/lwena-adam-b55944322/",
     "https://www.tiktok.com/@techwareafrica"
   ]

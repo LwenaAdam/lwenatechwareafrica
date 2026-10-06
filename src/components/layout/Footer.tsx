@@ -19,7 +19,7 @@ export function Footer() {
               Delivering enterprise-grade SaaS, mobile apps, and custom systems.
             </p>
             <div className="flex gap-4">
-              <a href="https://github.com/LWENA27" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/LwenaAdam" target="_blank" rel="noopener noreferrer" 
                  className="text-white/80 hover:text-secondary transition-colors" title="GitHub">
                 <Github className="h-5 w-5" />
               </a>

@@ -66,7 +66,7 @@ Website | GitHub | Support: techwareafrican@gmail.com
 
 2. **Clone and Setup**:
    ```bash
-   git clone https://github.com/LWENA27/Mem_technology.git
+   git clone https://github.com/LwenaAdam/Mem_technology.git
    cd Mem_technology
    flutter pub get
    ```
@@ -251,7 +251,7 @@ flutter build web
 
 ### Get Help
 - 📖 [Documentation](DEPLOYMENT_GUIDE.md)
-- 🐛 [GitHub Issues](https://github.com/LWENA27/Mem_technology/issues)
+- 🐛 [GitHub Issues](https://github.com/LwenaAdam/Mem_technology/issues)
 -- 📧 Email: support@techwareafrica.tech
 
 ## 🤝 Contributing

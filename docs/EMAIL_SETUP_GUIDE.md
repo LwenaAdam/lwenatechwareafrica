@@ -230,6 +230,6 @@ netlify logs    # Netlify
 ## Support
 
 For issues or questions:
-- GitHub: https://github.com/LWENA27
+- GitHub: https://github.com/LwenaAdam
 - Email: techwareafrican@gmail.com
 - Phone: +255 683 274 343

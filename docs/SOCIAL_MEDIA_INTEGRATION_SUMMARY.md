@@ -25,7 +25,7 @@ Completed comprehensive integration of social media presence across the TechWare
 
 **Social Links Added:**
 ```
-GitHub → https://github.com/LWENA27
+GitHub → https://github.com/LwenaAdam
 LinkedIn → https://www.linkedin.com/in/lwena-adam-b55944322/
 TikTok → https://www.tiktok.com/@techwareafrica
 ```
@@ -107,8 +107,8 @@ TikTok → https://www.tiktok.com/@techwareafrica
 - **Icon Used**: `TrendingUp` (Lucide React - TikTok icon not available)
 
 ### GitHub
-- **Handle**: `LWENA27`
-- **URL**: `https://github.com/LWENA27`
+- **Handle**: `LwenaAdam`
+- **URL**: `https://github.com/LwenaAdam`
 - **Icon Used**: `Github` (Lucide React)
 
 ### LinkedIn
@@ -244,7 +244,7 @@ All instances of "Lwena TechWareAfrica" have been corrected to "TechWareAfrica":
    ```json
    "sameAs": [
      "https://www.tiktok.com/@techwareafrica",
-     "https://github.com/LWENA27",
+     "https://github.com/LwenaAdam",
      "https://www.linkedin.com/in/lwena-adam-b55944322/"
    ]
    ```

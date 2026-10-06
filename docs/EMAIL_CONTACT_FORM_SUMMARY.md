@@ -218,7 +218,7 @@ Optional enhancements:
 For issues or questions:
 - **Email:** techwareafrican@gmail.com
 - **Phone:** +255 683 274 343
-- **GitHub:** https://github.com/LWENA27
+- **GitHub:** https://github.com/LwenaAdam
 - **Documentation:** See EMAIL_SETUP_GUIDE.md
 
 ---
