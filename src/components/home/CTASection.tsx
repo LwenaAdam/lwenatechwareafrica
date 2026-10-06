@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowRight, Mail, TrendingUp, Github, Linkedin } from 'lucide-react'
+import { ArrowRight, Mail, TrendingUp, Github, Linkedin, Facebook } from 'lucide-react'
 
 export function CTASection() {
   return (
@@ -49,7 +49,7 @@ export function CTASection() {
           {/* Social Media Section */}
           <div className="mt-12 pt-8 border-t border-white/20">
             <p className="text-sm font-medium mb-4">Meet us on all social media platforms</p>
-            <div className="flex justify-center gap-6">
+            <div className="flex flex-wrap justify-center gap-4">
               <a 
                 href="https://www.tiktok.com/@techwareafrica" 
                 target="_blank" 
@@ -58,7 +58,7 @@ export function CTASection() {
                 title="TikTok @techwareafrica"
               >
                 <TrendingUp className="h-4 w-4" />
-                <span>@techwareafrica</span>
+                <span>TikTok</span>
               </a>
               <a 
                 href="https://github.com/LwenaAdam" 
@@ -71,14 +71,24 @@ export function CTASection() {
                 <span>GitHub</span>
               </a>
               <a 
-                href="https://www.linkedin.com/in/lwena-adam-b55944322/" 
+                href="https://www.linkedin.com/company/techwareafrica" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors text-sm font-medium"
-                title="LinkedIn"
+                title="LinkedIn @techwareafrica"
               >
                 <Linkedin className="h-4 w-4" />
                 <span>LinkedIn</span>
+              </a>
+              <a 
+                href="https://www.facebook.com/techwareafrica" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors text-sm font-medium"
+                title="Facebook @techwareafrica"
+              >
+                <Facebook className="h-4 w-4" />
+                <span>Facebook</span>
               </a>
             </div>
           </div>

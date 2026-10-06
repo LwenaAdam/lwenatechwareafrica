@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, TrendingUp } from 'lucide-react'
+import { Mail, Phone, MapPin, Github, Linkedin, Facebook, TrendingUp } from 'lucide-react'
 import { BrandLogo } from '@/components/ui/BrandLogo'
 
 export function Footer() {
@@ -23,9 +23,13 @@ export function Footer() {
                  className="text-white/80 hover:text-secondary transition-colors" title="GitHub">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://www.linkedin.com/in/lwena-adam-b55944322/" target="_blank" rel="noopener noreferrer"
-                 className="text-white/80 hover:text-secondary transition-colors" title="LinkedIn">
+              <a href="https://www.linkedin.com/company/techwareafrica" target="_blank" rel="noopener noreferrer"
+                 className="text-white/80 hover:text-secondary transition-colors" title="LinkedIn @techwareafrica">
                 <Linkedin className="h-5 w-5" />
+              </a>
+              <a href="https://www.facebook.com/techwareafrica" target="_blank" rel="noopener noreferrer"
+                 className="text-white/80 hover:text-secondary transition-colors" title="Facebook @techwareafrica">
+                <Facebook className="h-5 w-5" />
               </a>
               <a href="https://www.tiktok.com/@techwareafrica" target="_blank" rel="noopener noreferrer"
                  className="text-white/80 hover:text-secondary transition-colors" title="TikTok @techwareafrica">

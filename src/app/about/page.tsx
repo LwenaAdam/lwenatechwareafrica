@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Building2, Users, Target, Zap, Github, Linkedin, TrendingUp } from 'lucide-react'
+import { Building2, Users, Target, Zap, Github, Linkedin, Facebook, TrendingUp } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About Us',
@@ -293,14 +293,24 @@ export default function AboutPage() {
                 <span>GitHub</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/lwena-adam-b55944322/"
+                href="https://www.linkedin.com/company/techwareafrica"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors text-sm font-medium"
-                title="LinkedIn"
+                title="LinkedIn @techwareafrica"
               >
                 <Linkedin className="h-4 w-4" />
                 <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://www.facebook.com/techwareafrica"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors text-sm font-medium"
+                title="Facebook @techwareafrica"
+              >
+                <Facebook className="h-4 w-4" />
+                <span>Facebook</span>
               </a>
             </div>
           </div>

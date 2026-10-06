@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowLeft, Mail, Phone, Globe, Clock, CheckCircle2 } from 'lucide-react'
+import Image from 'next/image'
+import { ArrowLeft, Mail, Phone, Globe, Clock, CheckCircle2, Linkedin, Github, Twitter } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Our Team - TechWare Africa',
@@ -11,26 +12,32 @@ export default function TeamPage() {
   const teamMembers = [
     {
       name: 'Lwena Adam',
-      role: 'CEO & Full Stack Developer',
-      bio: 'Visionary leader with expertise in building enterprise-grade software solutions across web, mobile, and backend technologies.',
+      role: 'Founder & CEO | Full Stack Developer',
+      image: '/images/team/good.jpg',
+      bio: 'Visionary founder and lead software architect with deep expertise in building enterprise-grade SaaS products, cloud platforms, web, mobile, and backend systems across Africa and globally.',
       availability: [
         { day: 'Monday - Friday', hours: '8:00 AM - 6:00 PM EAT' },
         { day: 'Weekend', hours: 'By appointment' },
       ],
       email: 'lwena027@gmail.com',
       whatsapp: '+255678364343',
+      linkedin: 'https://www.linkedin.com/in/lwenaadam',
+      github: 'https://github.com/LwenaAdam',
+      twitter: 'https://x.com/lwena_27',
       portfolio: 'https://lwena.techwareafrica.tech',
       specialties: ['Full Stack Development', 'System Architecture', 'Project Management', 'SaaS Design'],
     },
     {
       name: 'Fathiya Seif Mohammed',
       role: 'Database Administrator & Head of Customer Support',
+      image: null,
       bio: 'Expert database architect with deep knowledge in PostgreSQL optimization, data management, and customer success strategies.',
       availability: [
         { day: 'Always Available', hours: '24/7 Support' },
       ],
       email: 'fathiya@techwareafrica.tech',
       whatsapp: '+255 675 540 929',
+      linkedin: 'https://www.linkedin.com/in/fathiya-seif-a3401b379/',
       portfolio: 'https://fathiyaseif.techwareafrica.tech',
       specialties: ['Database Design', 'Customer Support', 'Data Optimization', 'Query Performance'],
     },
@@ -62,15 +69,28 @@ export default function TeamPage() {
             {teamMembers.map((member, index) => (
               <div key={index} className="max-w-4xl mx-auto">
                 <div className="grid md:grid-cols-3 gap-12 items-start">
-                  {/* Image Placeholder */}
+                  {/* Image Container */}
                   <div className="md:col-span-1">
-                    <div className="bg-gradient-to-br from-primary to-secondary rounded-2xl h-80 flex items-center justify-center sticky top-4">
-                      <div className="text-center">
-                        <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <span className="text-6xl">👤</span>
+                    <div className="relative rounded-2xl h-80 overflow-hidden shadow-lg border-2 border-primary/20 sticky top-4 bg-gradient-to-br from-primary to-secondary">
+                      {member.image ? (
+                        <Image
+                          src={member.image}
+                          alt={member.name}
+                          fill
+                          className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                          sizes="(max-width: 768px) 100vw, 320px"
+                          priority={index === 0}
+                        />
+                      ) : (
+                        <div className="h-full flex items-center justify-center">
+                          <div className="text-center">
+                            <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                              <span className="text-6xl">👤</span>
+                            </div>
+                            <p className="text-white/80">Photo coming soon</p>
+                          </div>
                         </div>
-                        <p className="text-white/80">Photo coming soon</p>
-                      </div>
+                      )}
                     </div>
                   </div>
 
@@ -138,6 +158,48 @@ export default function TeamPage() {
                             <div>
                               <p className="text-xs text-muted/70">WhatsApp</p>
                               <p className="font-medium">{member.whatsapp}</p>
+                            </div>
+                          </a>
+                        )}
+                        {member.linkedin && (
+                          <a 
+                            href={member.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-muted hover:text-primary transition-colors"
+                          >
+                            <Linkedin className="w-5 h-5 text-[#0077B5] flex-shrink-0" />
+                            <div>
+                              <p className="text-xs text-muted/70">LinkedIn</p>
+                              <p className="font-medium">Connect on LinkedIn</p>
+                            </div>
+                          </a>
+                        )}
+                        {'github' in member && member.github && (
+                          <a 
+                            href={member.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-muted hover:text-primary transition-colors"
+                          >
+                            <Github className="w-5 h-5 text-gray-800 flex-shrink-0" />
+                            <div>
+                              <p className="text-xs text-muted/70">GitHub</p>
+                              <p className="font-medium">GitHub Profile</p>
+                            </div>
+                          </a>
+                        )}
+                        {'twitter' in member && member.twitter && (
+                          <a 
+                            href={member.twitter}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-muted hover:text-primary transition-colors"
+                          >
+                            <Twitter className="w-5 h-5 text-[#1DA1F2] flex-shrink-0" />
+                            <div>
+                              <p className="text-xs text-muted/70">X (Twitter)</p>
+                              <p className="font-medium">@lwena_27</p>
                             </div>
                           </a>
                         )}

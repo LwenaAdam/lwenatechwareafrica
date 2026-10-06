@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Mail, Phone, MapPin, Clock, Github, Linkedin, TrendingUp } from 'lucide-react'
+import { Mail, Phone, MapPin, Clock, Github, Linkedin, Facebook, TrendingUp } from 'lucide-react'
 import { ContactForm } from '@/components/contact/ContactForm'
 import { MapSection } from '@/components/contact/MapSection'
 
@@ -120,14 +120,24 @@ export default function ContactPage() {
                     <span>GitHub</span>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/lwena-adam-b55944322/"
+                    href="https://www.linkedin.com/company/techwareafrica"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-[#232F3E] text-white rounded-lg hover:bg-[#FF9900] transition-colors text-sm font-medium"
-                    title="LinkedIn"
+                    title="LinkedIn @techwareafrica"
                   >
                     <Linkedin className="h-4 w-4" />
                     <span>LinkedIn</span>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/techwareafrica"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-[#232F3E] text-white rounded-lg hover:bg-[#FF9900] transition-colors text-sm font-medium"
+                    title="Facebook @techwareafrica"
+                  >
+                    <Facebook className="h-4 w-4" />
+                    <span>Facebook</span>
                   </a>
                 </div>
               </div>

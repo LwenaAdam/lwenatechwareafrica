@@ -26,8 +26,11 @@ Completed comprehensive integration of social media presence across the TechWare
 **Social Links Added:**
 ```
 GitHub → https://github.com/LwenaAdam
-LinkedIn → https://www.linkedin.com/in/lwena-adam-b55944322/
+LinkedIn (Company) → https://www.linkedin.com/company/techwareafrica
+LinkedIn (Founder) → https://www.linkedin.com/in/lwenaadam
+Facebook → https://www.facebook.com/techwareafrica
 TikTok → https://www.tiktok.com/@techwareafrica
+X (Twitter) → https://x.com/lwena_27
 ```
 
 ---
