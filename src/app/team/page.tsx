@@ -19,7 +19,7 @@ export default function TeamPage() {
       ],
       email: 'lwena027@gmail.com',
       whatsapp: '+255678364343',
-      portfolio: 'lwena.techwareafrica.tech',
+      portfolio: 'https://lwena.techwareafrica.tech',
       specialties: ['Full Stack Development', 'System Architecture', 'Project Management', 'SaaS Design'],
     },
     {
@@ -143,7 +143,7 @@ export default function TeamPage() {
                         )}
                         {member.portfolio && member.portfolio !== '#' && (
                           <a 
-                            href={member.portfolio}
+                            href={member.portfolio.startsWith('http') ? member.portfolio : `https://${member.portfolio}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-3 text-muted hover:text-primary transition-colors"
