@@ -4,8 +4,108 @@ import Image from 'next/image'
 import { ArrowLeft, Mail, Phone, Globe, Clock, CheckCircle2, Linkedin, Github, Twitter } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Our Team - TechWare Africa',
-  description: 'Meet our talented team of developers, designers, and support specialists ready to help your business succeed.',
+  title: 'Our Team | Leadership & Founders - TechWareAfrica',
+  description: 'Meet our leadership team including Founder & CEO Lwena Adam and Co-Founder Suleiman Nicolaus — delivering world-class software solutions, SaaS, and mobile apps from Africa.',
+  keywords: [
+    'TechWareAfrica team',
+    'Lwena Adam',
+    'Suleiman Nicolaus',
+    'TechWareAfrica founders',
+    'software developers Tanzania',
+    'African tech founders',
+    'SaaS developers Africa',
+    'Dar es Salaam tech leaders'
+  ],
+  alternates: {
+    canonical: '/team',
+  },
+  openGraph: {
+    title: 'Our Team | TechWareAfrica Leadership',
+    description: 'Meet the founders and engineering minds behind TechWareAfrica.',
+    url: 'https://techwareafrica.tech/team',
+    siteName: 'TechWareAfrica',
+    images: [
+      {
+        url: '/images/team/good.jpg',
+        width: 810,
+        height: 876,
+        alt: 'Lwena Adam - Founder & CEO of TechWareAfrica',
+      },
+      {
+        url: '/images/team/suleiman-nicolaus.jpg',
+        width: 667,
+        height: 681,
+        alt: 'Suleiman Nicolaus - Co-Founder of TechWareAfrica',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'TechWareAfrica Leadership & Founders',
+    description: 'Meet Lwena Adam and Suleiman Nicolaus, founders of TechWareAfrica.',
+    images: ['/images/team/good.jpg'],
+  },
+}
+
+const teamSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "TechWareAfrica Team",
+  "description": "Leadership team and founders of TechWareAfrica",
+  "url": "https://techwareafrica.tech/team",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Person",
+        "position": 1,
+        "name": "Lwena Adam",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "TechWareAfrica",
+          "url": "https://techwareafrica.tech"
+        },
+        "image": "https://techwareafrica.tech/images/team/good.jpg",
+        "url": "https://lwena.techwareafrica.tech",
+        "sameAs": [
+          "https://www.linkedin.com/in/lwenaadam",
+          "https://github.com/LwenaAdam",
+          "https://x.com/lwena_27"
+        ]
+      },
+      {
+        "@type": "Person",
+        "position": 2,
+        "name": "Suleiman Nicolaus",
+        "jobTitle": "Co-Founder",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "TechWareAfrica",
+          "url": "https://techwareafrica.tech"
+        },
+        "image": "https://techwareafrica.tech/images/team/suleiman-nicolaus.jpg",
+        "email": "hamesulei24@gmail.com",
+        "telephone": "+255627101384"
+      },
+      {
+        "@type": "Person",
+        "position": 3,
+        "name": "Fathiya Seif Mohammed",
+        "jobTitle": "Database Administrator & Head of Customer Support",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "TechWareAfrica",
+          "url": "https://techwareafrica.tech"
+        },
+        "url": "https://fathiyaseif.techwareafrica.tech",
+        "sameAs": [
+          "https://www.linkedin.com/in/fathiya-seif-a3401b379/",
+          "https://github.com/Fathiya123"
+        ]
+      }
+    ]
+  }
 }
 
 interface TeamMember {
@@ -45,7 +145,7 @@ export default function TeamPage() {
     {
       name: 'Suleiman Nicolaus',
       role: 'Co-Founder',
-      image: null,
+      image: '/images/team/suleiman-nicolaus.jpg',
       bio: 'Strategic co-founder and technology leader dedicated to operational growth, business expansion, and scaling world-class digital solutions across Africa and global markets.',
       availability: [
         { day: 'Monday - Friday', hours: '8:00 AM - 6:00 PM EAT' },
@@ -73,6 +173,10 @@ export default function TeamPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(teamSchema) }}
+      />
       {/* Header */}
       <section className="bg-primary text-white py-16">
         <div className="container mx-auto px-4">

@@ -1,13 +1,34 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import { Building2, Users, Target, Zap, Github, Linkedin, Facebook, TrendingUp } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'Learn about TechWareAfrica - World-class software solutions built in Africa for the global market.',
+  title: 'About Us | TechWareAfrica - World-Class Software from Africa',
+  description: 'Learn about TechWareAfrica, our mission, vision, and leadership team including Founder Lwena Adam and Co-Founder Suleiman Nicolaus.',
+  keywords: [
+    'About TechWareAfrica',
+    'Lwena Adam',
+    'Suleiman Nicolaus',
+    'software company Africa',
+    'Tanzania software engineering',
+    'African tech innovation'
+  ],
+  alternates: {
+    canonical: '/about',
+  },
   openGraph: {
-    title: 'About TechWareAfrica',
-    description: 'Learn about our mission, vision, and the team behind TechWareAfrica — building world-class software from Africa.',
-    images: ['/images/og/og-about-1200x630.png']
+    title: 'About TechWareAfrica - Innovation & Leadership',
+    description: 'Learn about our mission, vision, and the leadership team behind TechWareAfrica.',
+    url: 'https://techwareafrica.tech/about',
+    siteName: 'TechWareAfrica',
+    images: [
+      {
+        url: '/images/team/good.jpg',
+        width: 810,
+        height: 876,
+        alt: 'TechWareAfrica Leadership',
+      },
+    ],
   },
 }
 
@@ -153,10 +174,15 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-12">
             {/* CEO */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-              <div className="bg-gradient-to-br from-[#232F3E] to-[#FF9900] h-48 flex items-center justify-center">
-                <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-                  <Users className="w-16 h-16 text-[#232F3E]" />
-                </div>
+              <div className="relative h-48 w-full bg-[#232F3E]">
+                <Image
+                  src="/images/team/good.jpg"
+                  alt="Lwena Adam - Founder & CEO of TechWareAfrica"
+                  fill
+                  className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, 300px"
+                  priority
+                />
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-[#232F3E] mb-1">Lwena Adam</h3>
@@ -190,10 +216,14 @@ export default function AboutPage() {
 
             {/* Suleiman Nicolaus - Co-Founder */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-              <div className="bg-gradient-to-br from-[#232F3E] to-[#FF9900] h-48 flex items-center justify-center">
-                <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-                  <Users className="w-16 h-16 text-[#FF9900]" />
-                </div>
+              <div className="relative h-48 w-full bg-[#232F3E]">
+                <Image
+                  src="/images/team/suleiman-nicolaus.jpg"
+                  alt="Suleiman Nicolaus - Co-Founder of TechWareAfrica"
+                  fill
+                  className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, 300px"
+                />
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-[#232F3E] mb-1">Suleiman Nicolaus</h3>

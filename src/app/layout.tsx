@@ -117,6 +117,26 @@ const organizationSchema = {
     "longitude": 39.1557962
   },
   "hasMap": "https://www.google.com/maps/place/TECHWAREAFRICA/@-6.7403176,39.1557962,17z/",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Lwena Adam",
+      "jobTitle": "Founder & CEO",
+      "url": "https://lwena.techwareafrica.tech",
+      "sameAs": [
+        "https://www.linkedin.com/in/lwenaadam",
+        "https://github.com/LwenaAdam",
+        "https://x.com/lwena_27"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Suleiman Nicolaus",
+      "jobTitle": "Co-Founder",
+      "email": "hamesulei24@gmail.com",
+      "telephone": "+255627101384"
+    }
+  ],
   "sameAs": [
     "https://www.linkedin.com/company/techwareafrica",
     "https://github.com/LwenaAdam",
