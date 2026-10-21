@@ -134,7 +134,10 @@ const organizationSchema = {
       "name": "Suleiman Nicolaus",
       "jobTitle": "Co-Founder",
       "email": "hamesulei24@gmail.com",
-      "telephone": "+255627101384"
+      "telephone": "+255627101384",
+      "sameAs": [
+        "https://www.linkedin.com/in/suleiman-nicolaus-a9b766307/"
+      ]
     }
   ],
   "sameAs": [

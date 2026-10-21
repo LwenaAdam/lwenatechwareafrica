@@ -240,6 +240,15 @@ export default function AboutPage() {
                     <span>Email</span>
                   </a>
                   <a
+                    href="https://www.linkedin.com/in/suleiman-nicolaus-a9b766307/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1 bg-[#232F3E] text-white text-xs rounded hover:bg-[#FF9900] transition-colors"
+                    title="LinkedIn"
+                  >
+                    <span>LinkedIn</span>
+                  </a>
+                  <a
                     href="https://wa.me/255627101384"
                     target="_blank"
                     rel="noopener noreferrer"

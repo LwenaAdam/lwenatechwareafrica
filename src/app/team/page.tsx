@@ -86,7 +86,10 @@ const teamSchema = {
         },
         "image": "https://techwareafrica.tech/images/team/suleiman-nicolaus.jpg",
         "email": "hamesulei24@gmail.com",
-        "telephone": "+255627101384"
+        "telephone": "+255627101384",
+        "sameAs": [
+          "https://www.linkedin.com/in/suleiman-nicolaus-a9b766307/"
+        ]
       },
       {
         "@type": "Person",
@@ -153,6 +156,7 @@ export default function TeamPage() {
       ],
       email: 'hamesulei24@gmail.com',
       whatsapp: '+255 627 101 384',
+      linkedin: 'https://www.linkedin.com/in/suleiman-nicolaus-a9b766307/',
       specialties: ['Business Operations', 'Strategic Growth', 'Project Management', 'Tech Strategy'],
     },
     {
