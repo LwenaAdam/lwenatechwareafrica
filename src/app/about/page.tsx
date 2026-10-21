@@ -150,7 +150,7 @@ export default function AboutPage() {
           </div>
           
           {/* Team Members Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-12">
             {/* CEO */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-[#232F3E] to-[#FF9900] h-48 flex items-center justify-center">
@@ -160,11 +160,65 @@ export default function AboutPage() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-[#232F3E] mb-1">Lwena Adam</h3>
-                <p className="text-[#FF9900] font-semibold mb-3">CEO & Software Developer</p>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[#FF9900] font-semibold mb-3">Founder & CEO</p>
+                <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   Founder and lead developer, passionate about building world-class software solutions 
                   that showcase African innovation on the global stage.
                 </p>
+                <div className="flex justify-center gap-2">
+                  <a
+                    href="https://github.com/LwenaAdam"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1 bg-[#232F3E] text-white text-xs rounded hover:bg-[#FF9900] transition-colors"
+                    title="GitHub"
+                  >
+                    <span>GitHub</span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/lwenaadam"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1 bg-[#232F3E] text-white text-xs rounded hover:bg-[#FF9900] transition-colors"
+                    title="LinkedIn"
+                  >
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Suleiman Nicolaus - Co-Founder */}
+            <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-[#232F3E] to-[#FF9900] h-48 flex items-center justify-center">
+                <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
+                  <Users className="w-16 h-16 text-[#FF9900]" />
+                </div>
+              </div>
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-bold text-[#232F3E] mb-1">Suleiman Nicolaus</h3>
+                <p className="text-[#FF9900] font-semibold mb-3">Co-Founder</p>
+                <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                  Strategic co-founder dedicated to operational growth, business expansion, and delivering world-class digital solutions.
+                </p>
+                <div className="flex justify-center gap-2">
+                  <a
+                    href="mailto:hamesulei24@gmail.com"
+                    className="inline-flex items-center gap-1 px-3 py-1 bg-[#232F3E] text-white text-xs rounded hover:bg-[#FF9900] transition-colors"
+                    title="Email"
+                  >
+                    <span>Email</span>
+                  </a>
+                  <a
+                    href="https://wa.me/255627101384"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1 bg-green-600 text-white text-xs rounded hover:bg-green-700 transition-colors"
+                    title="WhatsApp"
+                  >
+                    <span>WhatsApp</span>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -177,12 +231,11 @@ export default function AboutPage() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="text-xl font-bold text-[#232F3E] mb-1">Fathiya Seif Mohammed</h3>
-                <p className="text-[#FF9900] font-semibold mb-3">Designer, Help Desk & Database Admin</p>
+                <p className="text-[#FF9900] font-semibold mb-3">Database Admin & Support</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Multi-talented team member specializing in UI/UX design, customer support, and database management. 
-                  Passionate about creating beautiful interfaces and maintaining robust systems.
+                  Multi-talented team member specializing in UI/UX design, customer support, and database management.
                 </p>
-                <div className="flex justify-center gap-3">
+                <div className="flex justify-center gap-2">
                   <a
                     href="https://github.com/Fathiya123"
                     target="_blank"
@@ -215,10 +268,10 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="p-6 text-center">
-                <h3 className="text-lg font-semibold text-[#232F3E] mb-1">Become Part of Our Journey</h3>
+                <h3 className="text-lg font-semibold text-[#232F3E] mb-1">Join Our Journey</h3>
                 <p className="text-[#FF9900] text-sm mb-3 font-medium">Available Positions</p>
                 <p className="text-gray-600 text-sm mb-4">
-                  We're looking for talented developers, designers, and support specialists to join our growing team.
+                  We're looking for developers, designers, and specialists to join our team.
                 </p>
                 <a
                   href="/contact"
@@ -234,7 +287,7 @@ export default function AboutPage() {
           <div className="bg-white p-8 rounded-lg shadow-sm max-w-4xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-[#FF9900] mb-2">1+</div>
+                <div className="text-3xl font-bold text-[#FF9900] mb-2">3+</div>
                 <div className="text-sm text-gray-600">Team Members</div>
               </div>
               <div>

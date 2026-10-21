@@ -8,8 +8,23 @@ export const metadata: Metadata = {
   description: 'Meet our talented team of developers, designers, and support specialists ready to help your business succeed.',
 }
 
+interface TeamMember {
+  name: string
+  role: string
+  image?: string | null
+  bio: string
+  availability: { day: string; hours: string }[]
+  email?: string
+  whatsapp?: string
+  linkedin?: string
+  github?: string
+  twitter?: string
+  portfolio?: string
+  specialties: string[]
+}
+
 export default function TeamPage() {
-  const teamMembers = [
+  const teamMembers: TeamMember[] = [
     {
       name: 'Lwena Adam',
       role: 'Founder & CEO | Full Stack Developer',
@@ -26,6 +41,19 @@ export default function TeamPage() {
       twitter: 'https://x.com/lwena_27',
       portfolio: 'https://lwena.techwareafrica.tech',
       specialties: ['Full Stack Development', 'System Architecture', 'Project Management', 'SaaS Design'],
+    },
+    {
+      name: 'Suleiman Nicolaus',
+      role: 'Co-Founder',
+      image: null,
+      bio: 'Strategic co-founder and technology leader dedicated to operational growth, business expansion, and scaling world-class digital solutions across Africa and global markets.',
+      availability: [
+        { day: 'Monday - Friday', hours: '8:00 AM - 6:00 PM EAT' },
+        { day: 'Weekend', hours: 'By appointment' },
+      ],
+      email: 'hamesulei24@gmail.com',
+      whatsapp: '+255 627 101 384',
+      specialties: ['Business Operations', 'Strategic Growth', 'Project Management', 'Tech Strategy'],
     },
     {
       name: 'Fathiya Seif Mohammed',
