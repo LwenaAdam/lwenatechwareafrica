@@ -174,12 +174,13 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-12">
             {/* CEO */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-              <div className="relative h-48 w-full bg-[#232F3E]">
+              <div className="relative h-52 w-full bg-[#232F3E]">
                 <Image
                   src="/images/team/good.jpg"
                   alt="Lwena Adam - Founder & CEO of TechWareAfrica"
                   fill
-                  className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                  className="object-cover hover:scale-105 transition-transform duration-500"
+                  style={{ objectPosition: 'center 28%' }}
                   sizes="(max-width: 768px) 100vw, 300px"
                   priority
                 />
@@ -216,12 +217,13 @@ export default function AboutPage() {
 
             {/* Suleiman Nicolaus - Co-Founder */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-              <div className="relative h-48 w-full bg-[#232F3E]">
+              <div className="relative h-52 w-full bg-[#232F3E]">
                 <Image
                   src="/images/team/suleiman-nicolaus.jpg"
                   alt="Suleiman Nicolaus - Co-Founder of TechWareAfrica"
                   fill
-                  className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                  className="object-cover hover:scale-105 transition-transform duration-500"
+                  style={{ objectPosition: 'center 45%' }}
                   sizes="(max-width: 768px) 100vw, 300px"
                 />
               </div>
@@ -263,7 +265,7 @@ export default function AboutPage() {
 
             {/* Fathiya Seif Mohammed */}
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-              <div className="bg-gradient-to-br from-[#FF9900] to-[#232F3E] h-48 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#FF9900] to-[#232F3E] h-52 flex items-center justify-center">
                 <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
                   <Users className="w-16 h-16 text-[#FF9900]" />
                 </div>

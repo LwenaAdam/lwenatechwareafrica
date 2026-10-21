@@ -124,6 +124,7 @@ interface TeamMember {
   twitter?: string
   portfolio?: string
   specialties: string[]
+  imagePosition?: string
 }
 
 export default function TeamPage() {
@@ -132,6 +133,7 @@ export default function TeamPage() {
       name: 'Lwena Adam',
       role: 'Founder & CEO | Full Stack Developer',
       image: '/images/team/good.jpg',
+      imagePosition: 'center 28%',
       bio: 'Visionary founder and lead software architect with deep expertise in building enterprise-grade SaaS products, cloud platforms, web, mobile, and backend systems across Africa and globally.',
       availability: [
         { day: 'Monday - Friday', hours: '8:00 AM - 6:00 PM EAT' },
@@ -149,6 +151,7 @@ export default function TeamPage() {
       name: 'Suleiman Nicolaus',
       role: 'Co-Founder',
       image: '/images/team/suleiman-nicolaus.jpg',
+      imagePosition: 'center 45%',
       bio: 'Strategic co-founder and technology leader dedicated to operational growth, business expansion, and scaling world-class digital solutions across Africa and global markets.',
       availability: [
         { day: 'Monday - Friday', hours: '8:00 AM - 6:00 PM EAT' },
@@ -213,7 +216,8 @@ export default function TeamPage() {
                           src={member.image}
                           alt={member.name}
                           fill
-                          className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                          className="object-cover hover:scale-105 transition-transform duration-500"
+                          style={{ objectPosition: member.imagePosition || 'center top' }}
                           sizes="(max-width: 768px) 100vw, 320px"
                           priority={index === 0}
                         />
