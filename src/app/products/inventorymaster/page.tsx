@@ -6,8 +6,10 @@ import { ArrowLeft, CheckCircle2, Download, Globe, Smartphone, Monitor, Gift, Cl
 
 const productSchema = {
   "@context": "https://schema.org",
-  "@type": "Product",
+  "@type": ["Product", "SoftwareApplication"],
   "name": "InventoryMaster SaaS",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web, Android, iOS, Windows, macOS, Linux",
   "description": "Comprehensive multi-tenant inventory management system built with Flutter and Supabase.",
   "image": "https://techwareafrica.tech/images/inventory/inventory-01.png",
   "brand": {
@@ -19,9 +21,72 @@ const productSchema = {
     "url": "https://inventory.techwareafrica.tech",
     "priceCurrency": "USD",
     "price": "0",
+    "validFrom": "2025-01-01",
     "priceValidUntil": "2026-12-31",
     "availability": "https://schema.org/InStock",
-    "description": "3 months free trial in 2026"
+    "description": "3 months free trial in 2026",
+    "shippingDetails": [
+      {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "TZ"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    ],
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": ["TZ", "US"],
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnDays": 0
+    }
   },
   "aggregateRating": {
     "@type": "AggregateRating",

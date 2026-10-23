@@ -6,8 +6,10 @@ import { PlaceholderImage } from "../../../components/ui/PlaceholderImage";
 
 const productSchema = {
   "@context": "https://schema.org",
-  "@type": "Product",
+  "@type": ["Product", "SoftwareApplication"],
   "name": "SMS Gateway Pro",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web, Cloud API",
   "description": "Enterprise bulk SMS platform for campaigns, notifications, and two-way messaging.",
   "image": "https://techwareafrica.tech/images/sms/sms-01.jpg",
   "brand": {
@@ -19,9 +21,72 @@ const productSchema = {
     "url": "https://smsgetway.techwareafrica.tech",
     "priceCurrency": "USD",
     "price": "0",
+    "validFrom": "2025-01-01",
     "priceValidUntil": "2026-12-31",
     "availability": "https://schema.org/InStock",
-    "description": "3 months free trial in 2026"
+    "description": "3 months free trial in 2026",
+    "shippingDetails": [
+      {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "TZ"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    ],
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": ["TZ", "US"],
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "merchantReturnDays": 0
+    }
   },
   "aggregateRating": {
     "@type": "AggregateRating",
