@@ -9,6 +9,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/lwena.techwareafrica.tech',
+        destination: 'https://lwena.techwareafrica.tech',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig

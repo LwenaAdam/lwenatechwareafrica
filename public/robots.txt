@@ -1,5 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
+Disallow: /_next/
+Disallow: /api/
 
-Sitemap: https://techwareafrica.tech/sitemap.xml
+Sitemap: https://www.techwareafrica.tech/sitemap.xml

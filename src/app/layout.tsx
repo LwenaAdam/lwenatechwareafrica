@@ -43,14 +43,14 @@ export const metadata: Metadata = {
   creator: 'TechWareAfrica',
   publisher: 'TechWareAfrica',
   // canonical site base used to build absolute URLs (keeps Open Graph and canonical links consistent)
-  metadataBase: new URL('https://techwareafrica.tech'),
+  metadataBase: new URL('https://www.techwareafrica.tech'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://techwareafrica.tech',
+    url: 'https://www.techwareafrica.tech',
     title: 'TechWareAfrica | World-Class Software Solutions from Africa',
     description: 'Professional software development company delivering world-class solutions built in Africa for the global market.',
     siteName: 'TechWareAfrica',
@@ -100,8 +100,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "TechWareAfrica",
-  "url": "https://techwareafrica.tech",
-  "logo": "https://techwareafrica.tech/images/Brand%26LandingPage/logoal-removebg-preview.png",
+  "url": "https://www.techwareafrica.tech",
+  "logo": "https://www.techwareafrica.tech/images/Brand%26LandingPage/logoal-removebg-preview.png",
   "description": "Professional software development company delivering world-class SaaS solutions, mobile apps, and enterprise systems.",
   "email": "techwareafrican@gmail.com",
   "telephone": "+255683274343",
