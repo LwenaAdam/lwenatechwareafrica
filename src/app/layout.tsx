@@ -43,14 +43,14 @@ export const metadata: Metadata = {
   creator: 'TechWareAfrica',
   publisher: 'TechWareAfrica',
   // canonical site base used to build absolute URLs (keeps Open Graph and canonical links consistent)
-  metadataBase: new URL('https://www.techwareafrica.tech'),
+  metadataBase: new URL('https://www.techware.africa'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.techwareafrica.tech',
+    url: 'https://www.techware.africa',
     title: 'TechWareAfrica | World-Class Software Solutions from Africa',
     description: 'Professional software development company delivering world-class solutions built in Africa for the global market.',
     siteName: 'TechWareAfrica',
@@ -100,8 +100,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "TechWareAfrica",
-  "url": "https://www.techwareafrica.tech",
-  "logo": "https://www.techwareafrica.tech/images/Brand%26LandingPage/logoal-removebg-preview.png",
+  "url": "https://www.techware.africa",
+  "logo": "https://www.techware.africa/images/Brand%26LandingPage/logoal-removebg-preview.png",
   "description": "Professional software development company delivering world-class SaaS solutions, mobile apps, and enterprise systems.",
   "email": "techwareafrican@gmail.com",
   "telephone": "+255683274343",
@@ -122,7 +122,7 @@ const organizationSchema = {
       "@type": "Person",
       "name": "Lwena Adam",
       "jobTitle": "Founder & CEO",
-      "url": "https://lwena.techwareafrica.tech",
+      "url": "https://lwena.techware.africa",
       "sameAs": [
         "https://www.linkedin.com/in/lwenaadam",
         "https://github.com/LwenaAdam",

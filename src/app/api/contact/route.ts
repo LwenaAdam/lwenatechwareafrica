@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #232F3E;">
             <div style="background-color: #232F3E; padding: 20px; border-radius: 8px 8px 0 0; border-bottom: 4px solid #FF9900;">
               <h2 style="color: #ffffff; margin: 0; font-size: 20px;">New Contact Form Submission</h2>
-              <p style="color: #EAEDED; margin: 5px 0 0; font-size: 13px;">Received from techwareafrica.tech</p>
+              <p style="color: #EAEDED; margin: 5px 0 0; font-size: 13px;">Received from techware.africa</p>
             </div>
             
             <div style="background-color: #ffffff; padding: 24px; border: 1px solid #E5E7EB; border-top: none;">
@@ -116,7 +116,7 @@ export async function POST(request: NextRequest) {
             </div>
 
             <div style="background-color: #F3F4F6; padding: 16px; text-align: center; font-size: 12px; color: #6B7280; border-radius: 0 0 8px 8px;">
-              <p style="margin: 0;">Sent automatically from <a href="https://techwareafrica.tech" style="color: #FF9900;">TechWareAfrica</a> Contact System.</p>
+              <p style="margin: 0;">Sent automatically from <a href="https://techware.africa" style="color: #FF9900;">TechWareAfrica</a> Contact System.</p>
             </div>
           </div>
         `,

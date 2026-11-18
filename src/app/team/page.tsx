@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Our Team | TechWareAfrica Leadership',
     description: 'Meet the founders and engineering minds behind TechWareAfrica.',
-    url: 'https://techwareafrica.tech/team',
+    url: 'https://techware.africa/team',
     siteName: 'TechWareAfrica',
     images: [
       {
@@ -52,7 +52,7 @@ const teamSchema = {
   "@type": "AboutPage",
   "name": "TechWareAfrica Team",
   "description": "Leadership team and founders of TechWareAfrica",
-  "url": "https://techwareafrica.tech/team",
+  "url": "https://techware.africa/team",
   "mainEntity": {
     "@type": "ItemList",
     "itemListElement": [
@@ -64,10 +64,10 @@ const teamSchema = {
         "worksFor": {
           "@type": "Organization",
           "name": "TechWareAfrica",
-          "url": "https://techwareafrica.tech"
+          "url": "https://techware.africa"
         },
-        "image": "https://techwareafrica.tech/images/team/good.jpg",
-        "url": "https://lwena.techwareafrica.tech",
+        "image": "https://techware.africa/images/team/good.jpg",
+        "url": "https://lwena.techware.africa",
         "sameAs": [
           "https://www.linkedin.com/in/lwenaadam",
           "https://github.com/LwenaAdam",
@@ -82,9 +82,9 @@ const teamSchema = {
         "worksFor": {
           "@type": "Organization",
           "name": "TechWareAfrica",
-          "url": "https://techwareafrica.tech"
+          "url": "https://techware.africa"
         },
-        "image": "https://techwareafrica.tech/images/team/suleiman-nicolaus.jpg",
+        "image": "https://techware.africa/images/team/suleiman-nicolaus.jpg",
         "email": "hamesulei24@gmail.com",
         "telephone": "+255627101384",
         "sameAs": [
@@ -99,9 +99,9 @@ const teamSchema = {
         "worksFor": {
           "@type": "Organization",
           "name": "TechWareAfrica",
-          "url": "https://techwareafrica.tech"
+          "url": "https://techware.africa"
         },
-        "url": "https://fathiyaseif.techwareafrica.tech",
+        "url": "https://fathiyaseif.techware.africa",
         "sameAs": [
           "https://www.linkedin.com/in/fathiya-seif-a3401b379/",
           "https://github.com/Fathiya123"
@@ -144,7 +144,7 @@ export default function TeamPage() {
       linkedin: 'https://www.linkedin.com/in/lwenaadam',
       github: 'https://github.com/LwenaAdam',
       twitter: 'https://x.com/lwena_27',
-      portfolio: 'https://lwena.techwareafrica.tech',
+      portfolio: 'https://lwena.techware.africa',
       specialties: ['Full Stack Development', 'System Architecture', 'Project Management', 'SaaS Design'],
     },
     {
@@ -170,10 +170,10 @@ export default function TeamPage() {
       availability: [
         { day: 'Always Available', hours: '24/7 Support' },
       ],
-      email: 'fathiya@techwareafrica.tech',
+      email: 'fathiya@techware.africa',
       whatsapp: '+255 675 540 929',
       linkedin: 'https://www.linkedin.com/in/fathiya-seif-a3401b379/',
-      portfolio: 'https://fathiyaseif.techwareafrica.tech',
+      portfolio: 'https://fathiyaseif.techware.africa',
       specialties: ['Database Design', 'Customer Support', 'Data Optimization', 'Query Performance'],
     },
   ]

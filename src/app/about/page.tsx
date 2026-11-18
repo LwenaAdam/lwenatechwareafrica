@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About TechWareAfrica - Innovation & Leadership',
     description: 'Learn about our mission, vision, and the leadership team behind TechWareAfrica.',
-    url: 'https://techwareafrica.tech/about',
+    url: 'https://techware.africa/about',
     siteName: 'TechWareAfrica',
     images: [
       {

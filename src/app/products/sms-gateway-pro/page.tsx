@@ -11,14 +11,14 @@ const productSchema = {
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web, Cloud API",
   "description": "Enterprise bulk SMS platform for campaigns, notifications, and two-way messaging.",
-  "image": "https://techwareafrica.tech/images/sms/sms-01.jpg",
+  "image": "https://techware.africa/images/sms/sms-01.jpg",
   "brand": {
     "@type": "Brand",
     "name": "TechWareAfrica"
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://smsgetway.techwareafrica.tech",
+    "url": "https://smsgetway.techware.africa",
     "priceCurrency": "USD",
     "price": "0",
     "validFrom": "2025-01-01",
@@ -199,7 +199,7 @@ export default function smsgetwayProPage() {
                 {isOfferValid ? (
                   <>
                     <a
-                      href="https://smsgetway.techwareafrica.tech"
+                      href="https://smsgetway.techware.africa"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-amber-600 hover:to-orange-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2"
@@ -300,7 +300,7 @@ export default function smsgetwayProPage() {
 
             <div className="mt-12 text-center">
               <a
-                href="https://smsgetway.techwareafrica.tech"
+                href="https://smsgetway.techware.africa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white px-10 py-5 rounded-xl font-bold text-lg hover:from-amber-600 hover:to-orange-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -443,7 +443,7 @@ export default function smsgetwayProPage() {
             {/* CTA Below Gallery */}
             <div className="mt-12 text-center">
               <a
-                href="https://smsgateway.techwareafrica.tech"
+                href="https://smsgateway.techware.africa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white px-10 py-5 rounded-xl font-bold text-lg hover:from-amber-600 hover:to-orange-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -491,7 +491,7 @@ export default function smsgetwayProPage() {
 
               <div className="mt-10">
                 <a
-                  href="https://smsgetway.techwareafrica.tech"
+                  href="https://smsgetway.techware.africa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-amber-500 text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-amber-600 transition-all shadow-xl"
@@ -523,7 +523,7 @@ export default function smsgetwayProPage() {
             {isOfferValid ? (
               <>
                 <a
-                  href="https://smsgetway.techwareafrica.tech"
+                  href="https://smsgetway.techware.africa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-[#232F3E] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all shadow-xl inline-flex items-center gap-3"

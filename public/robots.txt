@@ -4,4 +4,4 @@ Allow: /
 Disallow: /_next/
 Disallow: /api/
 
-Sitemap: https://www.techwareafrica.tech/sitemap.xml
+Sitemap: https://www.techware.africa/sitemap.xml

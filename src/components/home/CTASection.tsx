@@ -25,7 +25,7 @@ export function CTASection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button variant="cta" size="lg" asChild>
-              <a href="https://smsgetway.techwareafrica.tech" target="_blank" rel="noopener noreferrer">
+              <a href="https://smsgetway.techware.africa" target="_blank" rel="noopener noreferrer">
                 Try SMS Gateway Free <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>

@@ -26,7 +26,7 @@ const productSchema = {
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://www.techwareafrica.tech/products/weatheradmin",
+    "url": "https://www.techware.africa/products/weatheradmin",
     "priceCurrency": "USD",
     "price": "0",
     "validFrom": "2025-01-01",
@@ -73,12 +73,12 @@ export const metadata: Metadata = {
   title: 'Weather Admin Suite — Real-Time Climate Telemetry & Station Management',
   description: 'Enterprise weather station management platform. Real-time telemetry data collection, forecasting models, historical environmental analytics, and automated threshold alerts.',
   alternates: {
-    canonical: 'https://www.techwareafrica.tech/products/weatheradmin',
+    canonical: 'https://www.techware.africa/products/weatheradmin',
   },
   openGraph: {
     title: 'Weather Admin Suite — Real-Time Climate Telemetry & Station Management',
     description: 'Enterprise climate monitoring and automated telemetry alerts for commercial agriculture, aviation, and research stations in Africa.',
-    url: 'https://www.techwareafrica.tech/products/weatheradmin',
+    url: 'https://www.techware.africa/products/weatheradmin',
     siteName: 'TechWareAfrica',
   },
 }

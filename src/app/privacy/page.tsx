@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy | TechWareAfrica',
     description: 'TechWareAfrica Privacy Policy and data protection practices.',
-    url: 'https://www.techwareafrica.tech/privacy',
+    url: 'https://www.techware.africa/privacy',
   },
 }
 

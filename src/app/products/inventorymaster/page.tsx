@@ -11,14 +11,14 @@ const productSchema = {
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web, Android, iOS, Windows, macOS, Linux",
   "description": "Comprehensive multi-tenant inventory management system built with Flutter and Supabase.",
-  "image": "https://techwareafrica.tech/images/inventory/inventory-01.png",
+  "image": "https://techware.africa/images/inventory/inventory-01.png",
   "brand": {
     "@type": "Brand",
     "name": "TechWareAfrica"
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://inventory.techwareafrica.tech",
+    "url": "https://inventory.techware.africa",
     "priceCurrency": "USD",
     "price": "0",
     "validFrom": "2025-01-01",
@@ -203,7 +203,7 @@ export default function InventoryMasterPage() {
               {isOfferValid ? (
                 <>
                   <a
-                    href="https://inventory.techwareafrica.tech/"
+                    href="https://inventory.techware.africa/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-blue-600 hover:to-indigo-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2"
@@ -220,7 +220,7 @@ export default function InventoryMasterPage() {
                 </>
               ) : (
                 <Button variant="cta" size="lg" asChild>
-                  <a href="https://inventory.techwareafrica.tech/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://inventory.techware.africa/" target="_blank" rel="noopener noreferrer">
                     <Globe className="mr-2 h-5 w-5" />
                     Start Free Trial
                   </a>
@@ -358,7 +358,7 @@ export default function InventoryMasterPage() {
             {/* CTA Below Gallery */}
             <div className="mt-12 text-center">
               <a
-                href="https://inventory.techwareafrica.tech/"
+                href="https://inventory.techware.africa/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-10 py-5 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-indigo-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -436,7 +436,7 @@ export default function InventoryMasterPage() {
 
               <div className="mt-10">
                 <a
-                  href="https://inventory.techwareafrica.tech/"
+                  href="https://inventory.techware.africa/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-blue-500 text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-blue-600 transition-all shadow-xl"
@@ -465,7 +465,7 @@ export default function InventoryMasterPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="cta" size="lg" asChild>
-                <a href="https://inventory.techwareafrica.tech/" target="_blank" rel="noopener noreferrer">
+                <a href="https://inventory.techware.africa/" target="_blank" rel="noopener noreferrer">
                   Start Free Trial
                 </a>
               </Button>

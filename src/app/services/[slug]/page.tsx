@@ -70,7 +70,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 
           <div className="flex gap-3">
             <a 
-              href="https://smsgetway.techwareafrica.tech" 
+              href="https://smsgetway.techware.africa" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-primary"

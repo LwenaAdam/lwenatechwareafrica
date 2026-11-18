@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Terms of Service | TechWareAfrica',
     description: 'Terms and conditions for TechWareAfrica platforms and services.',
-    url: 'https://www.techwareafrica.tech/terms',
+    url: 'https://www.techware.africa/terms',
   },
 }
 

@@ -25,15 +25,15 @@ const productSchema = {
   "applicationCategory": "RestaurantManagementApplication",
   "operatingSystem": "Web, iOS, Android, Cloud",
   "description": "Cloud-native Contactless Digital QR Restaurant Menu & Order Management System. Instant QR code menus, live kitchen tracking, and customer feedback analytics for modern hospitality in Africa.",
-  "image": "https://techwareafrica.tech/images/smartmenu/smartmenu-preview.png",
-  "url": "https://smartmenu.techwareafrica.tech",
+  "image": "https://techware.africa/images/smartmenu/smartmenu-preview.png",
+  "url": "https://smartmenu.techware.africa",
   "brand": {
     "@type": "Brand",
     "name": "TechWareAfrica"
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://smartmenu.techwareafrica.tech",
+    "url": "https://smartmenu.techware.africa",
     "priceCurrency": "USD",
     "price": "0",
     "availability": "https://schema.org/InStock",
@@ -52,12 +52,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'SmartMenu QR — Cloud Digital Menu & Contactless Restaurant Ordering SaaS',
     description: 'Transform restaurant dining with SmartMenu QR. Instant QR code menus, real-time kitchen tracking, daily menu specials, and customer feedback analytics.',
-    url: 'https://www.techwareafrica.tech/products/smartmenu-qr',
+    url: 'https://www.techware.africa/products/smartmenu-qr',
     siteName: 'TechWareAfrica',
     images: ['/images/smartmenu/smartmenu-preview.png']
   },
   alternates: {
-    canonical: 'https://www.techwareafrica.tech/products/smartmenu-qr'
+    canonical: 'https://www.techware.africa/products/smartmenu-qr'
   }
 }
 
@@ -120,7 +120,7 @@ export default function SmartMenuQRPage() {
 
             <div className="flex flex-wrap gap-4 items-center">
               <a
-                href="https://smartmenu.techwareafrica.tech"
+                href="https://smartmenu.techware.africa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-secondary text-primary font-bold rounded-lg shadow-lg hover:bg-secondary/90 transition-all text-lg"
@@ -130,7 +130,7 @@ export default function SmartMenuQRPage() {
               </a>
 
               <a
-                href="https://smartmenu.techwareafrica.tech/customer-menu?table=1"
+                href="https://smartmenu.techware.africa/customer-menu?table=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/40 text-white font-semibold rounded-lg hover:bg-white/10 transition-all text-lg"
@@ -266,7 +266,7 @@ export default function SmartMenuQRPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://smartmenu.techwareafrica.tech/register"
+              href="https://smartmenu.techware.africa/register"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-secondary text-primary font-bold rounded-lg shadow-xl hover:bg-secondary/90 transition-all text-lg"
@@ -275,7 +275,7 @@ export default function SmartMenuQRPage() {
               <ArrowLeft className="ml-2 h-5 w-5 rotate-180" />
             </a>
             <a
-              href="https://api-smartmenu.techwareafrica.tech/swagger-ui.html"
+              href="https://api-smartmenu.techware.africa/swagger-ui.html"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/40 text-white font-semibold rounded-lg hover:bg-white/10 transition-all text-lg"
